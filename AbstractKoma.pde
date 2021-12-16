@@ -21,6 +21,5 @@ abstract class AbstractKoma {
 
     PImage img = loadImage(komaImage);
     image(img, SQUARESIZE*this.x+2, this.y*SQUARESIZE+2, SQUARESIZE-4, SQUARESIZE-4);
-
-  }
-}
+    }
+    }
